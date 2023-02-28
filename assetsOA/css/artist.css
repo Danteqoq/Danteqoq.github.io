@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav .main_container .menu:hover {
+    background-color: rgb(192, 153, 80);
+    transition: 500ms; border: none; border-radius: 10px;} 
+nav .main_container .menu {
+position: relative;
+height: calc(80% - 25px);
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 40px;
+float: left;
+cursor: pointer;
+}
+
+.main_container {
+    right: 0px;
+    top: 20px;
+}
+nav {
+position: relative;
+;
+top: 0;
+left: 0;
+width: 100vw;
+height: 150px;
+background-color: #24252a;
+z-index: 0;
+color: white;}
+
+nav .main_container {
+position: relative;
+width: 40%;
+height: 80%;
+margin: 0 auto;}
+
+.menu
+{font-family: 'Montserrat', sans-serif;
+font-size: 20px;}
+
+.img {position: absolute;
+    width: 1440px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;}
